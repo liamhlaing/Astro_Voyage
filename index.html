@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AstroVoyage - The premier commercial space tourism agency. Book unforgettable voyages to the Moon, Mars, Europa, and Titan. Safe, luxury interstellar travel." />
+  <title>AstroVoyage | Premier Commercial Space Tourism Agency</title>
+  
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="/css/style.css" />
+  
+  <!-- Defer loading of JS Logic -->
+  <script defer src="/js/main.js"></script>
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="header-wrapper" id="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link" id="logo" aria-label="AstroVoyage Home">
+        <!-- SVG Logo Icon -->
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 2L2 22h20L12 2z"></path>
+          <path d="M12 11.5V17"></path>
+          <path d="M9 14h6"></path>
+        </svg>
+        <span class="logo-text">Astro<span>Voyage</span></span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link active" id="nav-home">Home</a></li>
+          <li><a href="destinations.html" class="nav-link" id="nav-destinations">Destinations</a></li>
+          <li><a href="fleet.html" class="nav-link" id="nav-fleet">Our Fleet</a></li>
+          <li><a href="safety.html" class="nav-link" id="nav-safety">Safety & Tech</a></li>
+          <li><a href="book.html" class="nav-link" id="nav-book">Book Voyage</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Nav Toggle Burger (Keyboard Accessible) -->
+      <button class="mobile-nav-toggle" id="mobile-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle Navigation Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" id="menu-icon-svg">
+          <line x1="3" y1="12" x2="21" y2="12" id="line1"></line>
+          <line x1="3" y1="6" x2="21" y2="6" id="line2"></line>
+          <line x1="3" y1="18" x2="21" y2="18" id="line3"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg">
+        <img 
+          src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1920&auto=format&fit=crop" 
+          alt="Glowing blue orbital Earth planet with deep space and vibrant nebulae background" 
+          class="hero-img" 
+          referrerpolicy="no-referrer"
+          id="hero-bg-img"
+        />
+      </div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-subtitle" id="hero-subtext">Quiet Cosmic Transit</p>
+          <h1 id="hero-heading" class="hero-title">
+            Voyages of deep <span>stillness and space</span>
+          </h1>
+          <p class="hero-desc">
+            Venture beyond the noise of the atmosphere. Experience planetary orbits, silent lunar ridges, or outer system paths inside vessels designed for deep contemplation and absolute sensory rest.
+          </p>
+          <div class="hero-actions">
+            <a href="destinations.html" class="btn btn-primary" id="hero-btn-explore">Explore Journeys</a>
+            <a href="book.html" class="btn btn-outline" id="hero-btn-book">Reserve Cabin</a>
+          </div>
+          
+          <!-- Performance Badges/Stats -->
+          <div class="hero-badges" aria-label="AstroVoyage Agency Philosophy">
+            <div class="badge-item">
+              <span class="badge-value" id="stat-voyagers">Silence</span>
+              <span class="badge-label">Acoustically isolated cabins</span>
+            </div>
+            <div class="badge-item">
+              <span class="badge-value" id="stat-destinations">Materiality</span>
+              <span class="badge-label">Titanium, cedar, and raw linen</span>
+            </div>
+            <div class="badge-item">
+              <span class="badge-value" id="stat-rate">Restoration</span>
+              <span class="badge-label">Adaptive low-gravity therapy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why AstroVoyage Section -->
+    <section class="section-padding container" id="why-us" aria-labelledby="features-heading">
+      <div class="section-header">
+        <span class="section-label" id="features-sub">Quiet Craftsmanship</span>
+        <h2 id="features-heading" class="section-title">Designed for Discerning Travelers</h2>
+        <p class="section-subtitle">We merge quiet astronomical navigation, refined materials, and absolute thermal and architectural rest.</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <article class="feature-box" id="feature-1">
+          <div class="feature-icon-wrapper">
+            <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h3 class="feature-title">Acoustic Solitude</h3>
+          <p>
+            Our hull assemblies feature advanced sound dampening and double-wall isolation, absorbing engine hums to grant passengers an absolutely soundless journey.
+          </p>
+        </article>
+
+        <!-- Feature 2 -->
+        <article class="feature-box" id="feature-2">
+          <div class="feature-icon-wrapper">
+            <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+          </div>
+          <h3 class="feature-title">Gradual Acclimation</h3>
+          <p>
+            A restorative three-day dry-land preparation designed to gently accclimate your cardiovascular system to fluctuating weight and atmospheric pressures.
+          </p>
+        </article>
+
+        <!-- Feature 3 -->
+        <article class="feature-box" id="feature-3">
+          <div class="feature-icon-wrapper">
+            <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+          </div>
+          <h3 class="feature-title">Botanical Fare</h3>
+          <p>
+            An understated, seasonal menu crafted by culinary masters to retain full, delicate flavors in pressurized environments, paired with restorative herbal teas.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Hot Promo Section -->
+    <section class="section-padding container" id="promo-base" aria-labelledby="promo-heading">
+      <div class="promo-section" id="space-promo-banner">
+        <div class="promo-bg" style="background-image: url('https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?q=80&w=1200&auto=format&fit=crop');" aria-hidden="true"></div>
+        <div class="promo-content">
+          <span class="section-label" id="promo-tag">Featured Journey</span>
+          <h2 id="promo-heading" class="promo-title">The Martian Ridge</h2>
+          <p class="hero-desc" style="margin-top: 0.75rem;">
+            A temporary architectural sanctuary suspended gracefully above the immense red sand slopes of Olympus Mons. Limited to small-group geological and photographic study circles, focusing on solitude and raw planetary observation.
+          </p>
+          <div style="margin-top: 2rem; display: flex; gap: 1rem;">
+            <a href="book.html?destination=mars" class="btn btn-primary" id="promo-btn-book">Request Details</a>
+            <a href="destinations.html?id=mars" class="btn btn-outline" id="promo-btn-details">Our Itinerary</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="footer-wrapper" id="site-footer">
+    <div class="container footer-grid">
+      
+      <!-- Footer About -->
+      <div class="footer-about" id="footer-logo-block">
+        <a href="index.html" class="logo-link" id="footer-logo" aria-label="AstroVoyage Home">
+          <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 2L2 22h20L12 2z"></path>
+            <path d="M12 11.5V17"></path>
+            <path d="M9 14h6"></path>
+          </svg>
+          <span class="logo-text">Astro<span>Voyage</span></span>
+        </a>
+        <p>
+          AstroVoyage is the world's leading commercial agency specializing in suborbital, lunar, and deep-space passenger itineraries.
+        </p>
+      </div>
+
+      <!-- Footer Columns -->
+      <div class="footer-links-col" id="footer-menu-block">
+        <h3 class="footer-column-title" id="footer-menu-title">Explore</h3>
+        <ul class="footer-links" aria-labelledby="footer-menu-title">
+          <li><a href="index.html" class="footer-link" id="footer-link-home">Home</a></li>
+          <li><a href="destinations.html" class="footer-link" id="footer-link-dest">Destinations</a></li>
+          <li><a href="fleet.html" class="footer-link" id="footer-link-fleet">Our Fleet</a></li>
+          <li><a href="safety.html" class="footer-link" id="footer-link-safety">Safety Protocols</a></li>
+          <li><a href="book.html" class="footer-link" id="footer-link-book">Book Cabin</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col" id="footer-contact-block">
+        <h3 class="footer-column-title" id="footer-contact-title">Spaceports</h3>
+        <ul class="footer-links" aria-labelledby="footer-contact-title">
+          <li class="footer-contact-item">
+            <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Pacific Equatorial Floating Platform</span>
+          </li>
+          <li class="footer-contact-item">
+            <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>New Chaves Spaceport, NM, USA</span>
+          </li>
+          <li class="footer-contact-item">
+            <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>voyage@astro-voyage.space</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col" id="footer-newsletter-block">
+        <h3 class="footer-column-title" id="footer-news-title">Mission Updates</h3>
+        <p>Subscribe to our suborbital flight logs and priority reservation alerts.</p>
+        <form class="footer-newsletter" id="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed to AstroVoyage newsletter!');">
+          <input type="email" id="newsletter-input" placeholder="commander@email.com" aria-label="Newsletter Email Address" required />
+          <button type="submit" class="btn btn-primary" id="newsletter-submit" aria-label="Subscribe to newsletter button">Join</button>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="container footer-bottom">
+      <p class="footer-copy" id="footer-cc">&copy; 2026 AstroVoyage. Developed for academic purposes. Stellar safety guaranteed.</p>
+      <div class="footer-socials" id="socials-container">
+        <a href="#" class="social-link" id="soc-twitter" aria-label="AstroVoyage X (formerly Twitter) profile">
+          <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+          </svg>
+        </a>
+        <a href="#" class="social-link" id="soc-instagram" aria-label="AstroVoyage Instagram profile">
+          <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+        <a href="#" class="social-link" id="soc-youtube" aria-label="AstroVoyage YouTube channel">
+          <svg class="footer-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+            <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

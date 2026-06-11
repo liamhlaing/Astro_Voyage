@@ -1,0 +1,6 @@
+{
+  "name": "AstroVoyage",
+  "description": "A responsive 5-page Space Tourism Agency website built with native HTML5, CSS3, and dynamic JavaScript.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
